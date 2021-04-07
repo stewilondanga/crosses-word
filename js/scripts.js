@@ -35,7 +35,7 @@ const textArea = document.querySelector('textarea');
 textArea.value = crossword;
 textArea.addEventListener('input', () => draw(textArea.value));
 
-/*function draw(text) {
+function draw(text) {
   console.log('drawing')
   container.innerHTML = '';
   const lines = text.split('\n');
@@ -60,7 +60,7 @@ textArea.addEventListener('input', () => draw(textArea.value));
     container.appendChild(tr);
   });
 }
-draw(crossword);
+/*draw(crossword);
 
 function getHorizontals(text) {
   const horizontals = [];

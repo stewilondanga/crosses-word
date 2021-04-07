@@ -84,9 +84,9 @@ function getHorizontals(text) {
   console.log(arr)
   return horizontals;
 }
-/*const xWords = getHorizontals(crossword);
+const xWords = getHorizontals(crossword);
 
-function getVerticals(text) {
+/*function getVerticals(text) {
   const horizontalsMap = [];
   const lines = text.split('\n\n')[0].split('\n');
   lines.forEach((line, i) => {

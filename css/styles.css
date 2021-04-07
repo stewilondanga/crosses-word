@@ -117,13 +117,13 @@ table {
   font-family: arial;
 }
 
-/*.ch[data-super-script]:before {
+.ch[data-super-script]:before {
   content: attr(data-super-script);
   vertical-align: super;
   font-size: x-small;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;

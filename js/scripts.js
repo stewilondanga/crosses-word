@@ -62,7 +62,7 @@ function draw(text) {
 }
 draw(crossword);
 
-/*function getHorizontals(text) {
+function getHorizontals(text) {
   const horizontals = [];
   text.split('\n').slice(1, text.split('\n').length - 1)
     .filter((l, i) => {
@@ -81,7 +81,7 @@ draw(crossword);
     container.querySelector(`[data-index="${cur.index}"]`).dataset.superScript = arr.length;
   }
 
-  console.log(arr)
+  /*console.log(arr)
   return horizontals;
 }
 const xWords = getHorizontals(crossword);

@@ -31,11 +31,11 @@ h         r
           *
           *
 `;
-/*const textArea = document.querySelector('textarea');
+const textArea = document.querySelector('textarea');
 textArea.value = crossword;
 textArea.addEventListener('input', () => draw(textArea.value));
 
-function draw(text) {
+/*function draw(text) {
   console.log('drawing')
   container.innerHTML = '';
   const lines = text.split('\n');

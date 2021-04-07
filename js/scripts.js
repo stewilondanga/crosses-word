@@ -7,10 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*console.clear();
+console.clear();
 const container = document.querySelector('.container');
 
-const crossword =
+/*const crossword =
   `Australia
 m    l
 burglar

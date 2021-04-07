@@ -20,7 +20,7 @@
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
   -moz-transform: translateY(-50%) translateX(-50%);
-  left: 10%;
+  left: 80%;
   -webkit-perspective: 200px;
   -moz-perspective: 200px;
   perspective: 200px;

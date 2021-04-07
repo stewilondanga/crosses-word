@@ -107,6 +107,30 @@ body {
   transition-delay: 0.4s;
 }
 
+textarea {
+  font-family: monospace;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.ch {
+  border: 2px solid black;
+}
+
+.ch, .blank {
+  text-align: center;
+  padding: .2ch .7ch 0 .5ch;
+  font-family: arial;
+}
+
+.ch[data-super-script]:before {
+  content: attr(data-super-script);
+  vertical-align: super;
+  font-size: x-small;
+}
+
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;

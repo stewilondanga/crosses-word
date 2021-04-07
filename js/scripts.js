@@ -108,32 +108,32 @@ function getVerticals(text) {
       }
     });
   });
-  /*const horizontalObjs = horizontalsMap.sort(compareCol).reduce((acc, cur, i) => {
+  const horizontalObjs = horizontalsMap.sort(compareCol).reduce((acc, cur, i) => {
     console.log(acc, cur, i)
     if (!acc[cur.col]) acc[cur.col] = [];
     acc[cur.col].push(cur);
     return acc;
   }, {});
-  const horizontals = Object.keys(horizontalObjs).map(key => {
-    return horizontalObjs[key].sort(compareRow);
-  });
-  return horizontals;
-}
+  /*  const horizontals = Object.keys(horizontalObjs).map(key => {
+      return horizontalObjs[key].sort(compareRow);
+    });
+    return horizontals;
+  }
 
-function compareCol(a, b) {
-  if (a.col < b.col)
-    return -1;
-  if (a.col > b.col)
-    return 1;
-  return 0;
-}
+  function compareCol(a, b) {
+    if (a.col < b.col)
+      return -1;
+    if (a.col > b.col)
+      return 1;
+    return 0;
+  }
 
-function compareRow(a, b) {
-  if (a.row < b.row)
-    return -1;
-  if (a.row > b.row)
-    return 1;
-  return 0;
-}
-const yWords = getVerticals(crossword);
-console.log(yWords);
+  function compareRow(a, b) {
+    if (a.row < b.row)
+      return -1;
+    if (a.row > b.row)
+      return 1;
+    return 0;
+  }
+  const yWords = getVerticals(crossword);
+  console.log(yWords);

@@ -81,10 +81,10 @@ function getHorizontals(text) {
     container.querySelector(`[data-index="${cur.index}"]`).dataset.superScript = arr.length;
   }
 
-  /*console.log(arr)
+  console.log(arr)
   return horizontals;
 }
-const xWords = getHorizontals(crossword);
+/*const xWords = getHorizontals(crossword);
 
 function getVerticals(text) {
   const horizontalsMap = [];

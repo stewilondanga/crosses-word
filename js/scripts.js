@@ -10,7 +10,7 @@ var navigate = (function() {
 console.clear();
 const container = document.querySelector('.container');
 
-/*const crossword =
+const crossword =
   `Australia
 m    l
 burglar
@@ -31,7 +31,7 @@ h         r
           *
           *
 `;
-const textArea = document.querySelector('textarea');
+/*const textArea = document.querySelector('textarea');
 textArea.value = crossword;
 textArea.addEventListener('input', () => draw(textArea.value));
 

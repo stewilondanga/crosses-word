@@ -86,7 +86,7 @@ function getHorizontals(text) {
 }
 const xWords = getHorizontals(crossword);
 
-/*function getVerticals(text) {
+function getVerticals(text) {
   const horizontalsMap = [];
   const lines = text.split('\n\n')[0].split('\n');
   lines.forEach((line, i) => {
@@ -108,7 +108,7 @@ const xWords = getHorizontals(crossword);
       }
     });
   });
-  const horizontalObjs = horizontalsMap.sort(compareCol).reduce((acc, cur, i) => {
+  /*const horizontalObjs = horizontalsMap.sort(compareCol).reduce((acc, cur, i) => {
     console.log(acc, cur, i)
     if (!acc[cur.col]) acc[cur.col] = [];
     acc[cur.col].push(cur);

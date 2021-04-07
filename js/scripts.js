@@ -135,5 +135,5 @@ function compareRow(a, b) {
     return 1;
   return 0;
 }
-/*const yWords = getVerticals(crossword);
+const yWords = getVerticals(crossword);
 console.log(yWords);

@@ -1,4 +1,4 @@
-/*var navigate = (function() {
+var navigate = (function() {
   $('.dd').toggle();
   $('.dd_btn').click(function() {
     var dataName = $(this).attr('data-name');
@@ -7,7 +7,7 @@
   });
 })();
 
-console.clear();
+/*console.clear();
 const container = document.querySelector('.container');
 
 const crossword =

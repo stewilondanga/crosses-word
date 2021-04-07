@@ -60,9 +60,9 @@ function draw(text) {
     container.appendChild(tr);
   });
 }
-/*draw(crossword);
+draw(crossword);
 
-function getHorizontals(text) {
+/*function getHorizontals(text) {
   const horizontals = [];
   text.split('\n').slice(1, text.split('\n').length - 1)
     .filter((l, i) => {

@@ -120,7 +120,7 @@ function getVerticals(text) {
   return horizontals;
 }
 
-/*function compareCol(a, b) {
+function compareCol(a, b) {
   if (a.col < b.col)
     return -1;
   if (a.col > b.col)
@@ -128,7 +128,7 @@ function getVerticals(text) {
   return 0;
 }
 
-function compareRow(a, b) {
+/*function compareRow(a, b) {
   if (a.row < b.row)
     return -1;
   if (a.row > b.row)

@@ -107,11 +107,11 @@ table {
   border-collapse: collapse;
 }
 
-/*.ch {
+.ch {
   border: 2px solid black;
 }
 
-.ch, .blank {
+/*.ch, .blank {
   text-align: center;
   padding: .2ch .7ch 0 .5ch;
   font-family: arial;
